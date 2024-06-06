@@ -1,0 +1,1 @@
+# static-friction-project
