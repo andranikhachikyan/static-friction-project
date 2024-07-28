@@ -1,7 +1,7 @@
 import json
 import openai
 
-openai.api_key='sk-proj-GrzFq38FASz388EsSyKtT3BlbkFJqoYeX0wQBEX7o9Roizd4'
+openai.api_key=''
 # import open ai
 
 
@@ -23,14 +23,14 @@ def get_gpt3_response(prompt):
 #work in progress; not sure how to code openai stuff yet
 def object_checker(word):
     output_boolean_value = 1
-    prompt_yesno = "is the '{word}' an object? Respond either yes or no"
+    prompt_yesno = f"is any definition of '{word}' an object? Respond either yes or no without any other signs like dot or comma "
 
-    return output_boolean_value 
+    return get_gpt3_response(prompt_yesno) 
 # note: not
 
 #getting definition
 def get_definition(word):
-    prompt_definitions = "Define the word '{word}'"
+    prompt_definitions = f"Define the object '{word}'"
     output=get_gpt3_response(prompt_definitions)
 
     return output
@@ -48,12 +48,15 @@ with open('/Users/dogac/Desktop/friction111/words_alpha10.txt', 'r') as file:
 #checker word
 for word in words:
    word = word.strip()
-   if object_checker(word) == 1 :
+   print (object_checker(word))
+   if "Yes" in object_checker(word):
        verified_objects.append(word)
+       print(f'this {word} is an object')
 
 for word in verified_objects:
    definition = get_definition(word)
    defined_words[word] = definition
+   print (definition)
 
 
 
