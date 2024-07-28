@@ -1,6 +1,23 @@
 import json
+import openai
+
+openai.api_key='sk-proj-GrzFq38FASz388EsSyKtT3BlbkFJqoYeX0wQBEX7o9Roizd4'
 # import open ai
 
+
+# Replace 'your-api-key' with your actual OpenAI API key
+
+# Define a function to get a response from GPT-3
+def get_gpt3_response(prompt):
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": prompt}
+        ],
+        max_tokens=100
+    )
+    return response.choices[0].message['content'].strip()
 
 #to start off: function checker if a word is obj or not
 #work in progress; not sure how to code openai stuff yet
@@ -11,19 +28,20 @@ def object_checker(word):
     return output_boolean_value 
 # note: not
 
-
 #getting definition
 def get_definition(word):
-    output_definition = 'This is an object to erase ink'
     prompt_definitions = "Define the word '{word}'"
-    return output_definition
+    output=get_gpt3_response(prompt_definitions)
+
+    return output
+
 
 
 verified_objects = []
 defined_words = {}
 
 
-with open('/Users/dogac/Desktop/words_alpha.txt', 'r') as file:
+with open('/Users/dogac/Desktop/friction111/words_alpha10.txt', 'r') as file:
    words = file.readlines()
 
 
