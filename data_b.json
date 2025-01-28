@@ -1,0 +1,395 @@
+{
+  "frictionData": [
+    {
+      "material1": "Aluminum",
+      "against_material": "Aluminum",
+      "staticDry": "1.10 - 1.35",
+      "staticLubricated": "0.30"
+    },
+    {
+      "material1": "Aluminum-Bronze Alloy",
+      "against_material": "Steel",
+      "staticDry": "0.46",
+      "staticLubricated": null
+    },
+
+    {
+      "material1": "Brake (Composite)",
+      "against_material": "Cast Iron",
+      "staticDry": "0.40",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Brass",
+      "against_material": "Steel",
+      "staticDry": "0.50",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Brass",
+      "against_material": "Cast Iron",
+      "staticDry": "0.28",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Brick",
+      "against_material": "Wood",
+      "staticDry": "0.60",
+      "staticLubricated": "0.34"
+    },
+    {
+      "material1": "Bronze",
+      "against_material": "Cast Iron",
+      "staticDry": "0.21",
+      "staticLubricated": "0.30"
+    },
+    {
+      "material1": "Bronze",
+      "against_material": "Steel",
+      "staticDry": "0.16",
+      "staticLubricated": "0.08"
+    },
+    {
+      "material1": "Cadmium",
+      "against_material": "Cadmium",
+      "staticDry": "0.50",
+      "staticLubricated": "0.05"
+    },
+    {
+      "material1": "Cadmium",
+      "against_material": "Chromium (Chrome)",
+      "staticDry": "0.40",
+      "staticLubricated": "0.35"
+    },
+    {
+      "material1": "Cadmium",
+      "against_material": "Steel, Mild",
+      "staticDry": "0.46",
+      "staticLubricated": "0.10"
+    },
+    {
+      "material1": "Carbon",
+      "against_material": "Carbon",
+      "staticDry": "0.15",
+      "staticLubricated": "0.12"
+    },
+    {
+      "material1": "Carbon",
+      "against_material": "Steel",
+      "staticDry": "0.14",
+      "staticLubricated": "0.12"
+    },
+    {
+      "material1": "Cast Iron",
+      "against_material": "Cast Iron",
+      "staticDry": "1.10",
+      "staticLubricated": "0.08"
+    },
+    {
+      "material1": "Cast Iron",
+      "against_material": "Copper",
+      "staticDry": "1.05",
+      "staticLubricated": "0.08"
+    },
+    {
+      "material1": "Cast Iron",
+      "against_material": "Oak Wood",
+      "staticDry": "0.485",
+      "staticLubricated": "0.08"
+    },
+    {
+      "material1": "Cast Iron",
+      "against_material": "Steel",
+      "staticDry": "0.40",
+      "staticLubricated": "0.21"
+    },
+    {
+      "material1": "Cast Iron",
+      "against_material": "Zinc",
+      "staticDry": "0.85",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Chromium (Chrome)",
+      "against_material": "Chromium (Chrome)",
+      "staticDry": "0.41",
+      "staticLubricated": "0.34"
+    },
+    {
+      "material1": "Colbalt (70°C)",
+      "against_material": "Cobalt",
+      "staticDry": "0.30",
+      "staticLubricated": "0.25"
+    },
+    {
+      "material1": "Concrete",
+      "against_material": "Rubber",
+      "staticDry": "1.0",
+      "staticLubricated": "0.30"
+    },
+    {
+      "material1": "Concrete",
+      "against_material": "Wood",
+      "staticDry": "0.62",
+      "staticLubricated": "0.50"
+    },
+    {
+      "material1": "Copper",
+      "against_material": "Cast Iron",
+      "staticDry": "1.05",
+      "staticLubricated": "0.20"
+    },
+    {
+      "material1": "Copper",
+      "against_material": "Copper",
+      "staticDry": "1.00",
+      "staticLubricated": "0.08"
+    },
+    {
+      "material1": "Copper",
+      "against_material": "Glass",
+      "staticDry": "0.94",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Copper",
+      "against_material": "Steel",
+      "staticDry": "0.53",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Copper-Lead Alloy",
+      "against_material": "Steel",
+      "staticDry": "0.22",
+      "staticLubricated": "0.19"
+    },
+    {
+      "material1": "Cork",
+      "against_material": "Iron",
+      "staticDry": "0.35",
+      "staticLubricated": "0.16"
+    },
+    {
+      "material1": "Diamond",
+      "against_material": "Diamond",
+      "staticDry": "0.10",
+      "staticLubricated": "0.05"
+    },
+    {
+      "material1": "Diamond",
+      "against_material": "Metal",
+      "staticDry": "0.10 - 0.15",
+      "staticLubricated": "0.10"
+    },
+    {
+      "material1": "Glass",
+      "against_material": "Glass",
+      "staticDry": "0.90 - 1.0",
+      "staticLubricated": "0.10"
+    },
+    {
+      "material1": "Glass",
+      "against_material": "Metal",
+      "staticDry": "0.50 - 0.70",
+      "staticLubricated": "0.20"
+    },
+    {
+      "material1": "Glass",
+      "against_material": "Nickel",
+      "staticDry": "0.78",
+      "staticLubricated": "0.57"
+    },
+    {
+      "material1": "Graphite",
+      "against_material": "Graphite",
+      "staticDry": "0.10",
+      "staticLubricated": "0.10"
+    },
+    {
+      "material1": "Graphite",
+      "against_material": "Steel",
+      "staticDry": "0.10",
+      "staticLubricated": "0.10"
+    },
+    {
+      "material1": "Horseshoe",
+      "against_material": "Concrete",
+      "staticDry": "0.67",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Horseshoe",
+      "against_material": "Rubber",
+      "staticDry": "0.28",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Ice",
+      "against_material": "Wood",
+      "staticDry": "0.05",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Ice",
+      "against_material": "Steel",
+      "staticDry": "0.04",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Iron",
+      "against_material": "Iron",
+      "staticDry": "1.0",
+      "staticLubricated": "0.15"
+    },
+    {
+      "material1": "Lead",
+      "against_material": "Cast Iron",
+      "staticDry": "0.41",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Leather",
+      "against_material": "Iron",
+      "staticDry": "0.30",
+      "staticLubricated": "0.09"
+    },
+    {
+      "material1": "Leather",
+      "against_material": "Wood",
+      "staticDry": "0.30 - 0.40",
+      "staticLubricated": "0.04"
+    },
+    {
+      "material1": "Rubber (60 A Belt)",
+      "against_material": "Stainless Steel 316",
+      "staticDry": "0.64",
+      "staticLubricated": "0.10"
+    },
+    {
+      "material1": "Rubber (60 A Belt)",
+      "against_material": "Rubber (40 A Belt)",
+      "staticDry": "0.62",
+      "staticLubricated": "0.10"
+    },
+    {
+      "material1": "Rubber (60 A Belt)",
+      "against_material": "Rubber (60 A Belt)",
+      "staticDry": "0.73",
+      "staticLubricated": "0.03"
+    },
+    {
+      "material1": "Rubber (60 A Belt)",
+      "against_material": "Tool Steel",
+      "staticDry": "0.86",
+      "staticLubricated": "0.04"
+    },
+    {
+      "material1": "Rubber (60 A Belt)",
+      "against_material": "Tungsten Carbide",
+      "staticDry": "0.62",
+      "staticLubricated": "0.12"
+    },
+    {
+      "material1": "Rubber (60 A Belt)",
+      "against_material": "UHMW",
+      "staticDry": "0.56",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Rubber (60 A Belt)",
+      "against_material": "Urethane 50",
+      "staticDry": "0.60",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Rubber (60 A Belt)",
+      "against_material": "Urethane 80A",
+      "staticDry": "0.70",
+      "staticLubricated": "0.20"
+    },
+    {
+      "material1": "Rubber (60 A Belt)",
+      "against_material": "Urethane",
+      "staticDry": "0.67",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Silver",
+      "against_material": "Silver",
+      "staticDry": "1.40",
+      "staticLubricated": "0.52"
+    },
+    {
+      "material1": "Skin, Human",
+      "against_material": "Metals (63 Ra)",
+      "staticDry": "0.90",
+      "staticLubricated": "0.04"
+    },
+    {
+      "material1": "Steel",
+      "against_material": "Steel",
+      "staticDry": "0.80",
+      "staticLubricated": "0.16"
+    },
+    {
+      "material1": "Teflon",
+      "against_material": "Steel",
+      "staticDry": "0.04",
+      "staticLubricated": "0.04"
+    },
+    {
+      "material1": "Teflon",
+      "against_material": "Teflon",
+      "staticDry": "0.05 - 0.20",
+      "staticLubricated": "0.04"
+    },
+    {
+      "material1": "Tin",
+      "against_material": "Cast Iron",
+      "staticDry": "0.31",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Tire, Rubber",
+      "against_material": "Asphalt",
+      "staticDry": "0.71",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Tire, Rubber",
+      "against_material": "Grass",
+      "staticDry": "0.36",
+      "staticLubricated": null
+    },
+    {
+      "material1": "Tungsten Carbide",
+      "against_material": "Steel",
+      "staticDry": "0.40 - 0.60",
+      "staticLubricated": "0.10"
+    },
+    {
+      "material1": "Tungsten Carbide",
+      "against_material": "Tungsten Carbide",
+      "staticDry": "0.20 - 0.25",
+      "staticLubricated": "0.12"
+    },
+    {
+      "material1": "Wood",
+      "against_material": "Wood",
+      "staticDry": "0.25 - 0.50",
+      "staticLubricated": "0.20"
+    },
+    {
+      "material1": "Wood",
+      "against_material": "Metals",
+      "staticDry": "0.20 - 0.60",
+      "staticLubricated": "0.20"
+    },
+    {
+      "material1": "Zinc",
+      "against_material": "Zinc",
+      "staticDry": "0.60",
+      "staticLubricated": "0.04"
+    }
+  ]
+}
